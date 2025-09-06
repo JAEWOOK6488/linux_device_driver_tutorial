@@ -1,1 +1,0 @@
-cmd_/home/edie/driver/hello2/hello-2.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/edie/driver/hello2/hello-2.ko /home/edie/driver/hello2/hello-2.o /home/edie/driver/hello2/hello-2.mod.o;  make -f ./arch/arm64/Makefile.postlink /home/edie/driver/hello2/hello-2.ko
